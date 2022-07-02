@@ -1,0 +1,45 @@
+@import "navbar"
+@import "splash"
+@import "triscreen"
+@import "responsive"
+
+@font-face
+  font-family: "Futura Bold"
+  src: url("../futura-bold.otf") format("otf")
+
+@font-face
+  font-family: "Code"
+  src: url("../Code.ttf") format("truetype")
+
+body
+  font-family: "Futura Bold" !important
+
+.wolfdog-archives
+  & *
+    font-family: "Code", sans-serif !important
+    font-weight: 400 !important
+  & main .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide)
+    max-width: 77vw
+
+a
+  text-decoration: none
+
+i.§rtea-favicon
+  content: url('../../favicon.ico')
+  display: flex
+  justify-content: center
+  align-items: center
+
+i.§rtea-cartoon-favicon
+  content: url('../img/cartoon-logo.png')
+  display: flex
+  justify-content: center
+  align-items: center
+
+div.§rtea-container
+  padding: 3px 7vw
+
+.primary-menu
+  display: flex
+  justify-content: center
+  align-items: center

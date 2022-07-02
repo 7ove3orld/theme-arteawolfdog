@@ -1,0 +1,70 @@
+.triscreen
+  width: 100%
+  height: 100vh
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+
+  & .wd-screen
+    z-index: 1
+    position: relative
+    width: 100%
+    flex: 1
+
+    display: flex
+    justify-content: center
+    align-items: center
+
+    overflow: hidden
+    transition-duration: 0.33s
+
+    & > video
+      filter: brightness(77%)
+
+    &:hover
+      z-index: 3
+      flex: 7
+      box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.77)
+
+      & > .overlay
+        opacity: 0
+
+      & > video
+        filter: brightness(100%)
+
+    & .overlay
+      z-index: 2
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+
+      display: flex
+      justify-content: center
+      align-items: center
+
+      opacity: 0.97
+      background-color: rgba(0, 0, 0, 0.33)
+      color: white
+      transition-duration: 0.33s
+      font-size: 24px
+
+      & h2
+        margin: auto
+        transform: scaleX(222/2%) scaleY(444/2%)
+        opacity: .7
+
+    & img, video
+      width: 100%
+      height: 100%
+      object-fit: cover
+      object-position: center
+
+.§rtea-three-birds
+  width: 100%
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center

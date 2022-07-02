@@ -1,0 +1,59 @@
+.splash-screen
+
+  position: fixed
+  z-index: 777
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+  background-color: rgba(0, 0, 0, 1)
+  color: white
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+  overflow: hidden
+  transition-duration: 3s
+
+  & a.btn-img
+    display: flex
+    justify-content: center
+    align-items: center
+
+  &.right-panel
+    width: 50%
+    left: auto
+    right: 0
+    & a.btn-img
+      position: absolute
+      left: 0
+      transform: translateX(-52.3%)
+  &.left-panel
+    width: 50%
+    & a.btn-img
+      position: absolute
+      right: 0
+      transform: translateX(47.7%)
+
+  & img
+    width: 222px
+    height: 222px
+    object-fit: contain
+    object-position: center
+    text-align: center
+
+  & .h1-like
+    font-size: 4.2rem
+    text-align: center
+    color: white !important
+    transform: scaleY(333%)
+
+  &.done
+    transform: translateX(100%)
+
+    &.right-panel
+      pass
+    &.left-panel
+      transform: translateX(-100%)
