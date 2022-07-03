@@ -22,7 +22,7 @@
 							<?php
 							echo date_i18n(
 								/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
-								_x( 'm Y', 'copyright date format', 'twentytwenty' )
+								_x( 'M Y', 'copyright date format', 'twentytwenty' )
 							);
 							?>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
@@ -37,6 +37,8 @@
 						<ul>
 							<li>
 								<a disabled title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours..." href="#">Politique de Confidentialité</a>
+							</li>
+							<li>
 								<a disabled title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours..." href="#">Conditions Générales de Vente (CGV)</a>
 							</li>
 						</ul>
