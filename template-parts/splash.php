@@ -1,15 +1,15 @@
 <script type="text/javascript">
   function removeSplashScreen(classname) {
-    console.log("Hey !");
+    //console.log("Hey !");
     var splash = document.getElementsByClassName(classname);
     for (var i = 0; i < splash.length; i++) {
       splash[i].classList.add("done");
     }
   }
 
-  setTimeout( function() {
-    splashScreenDone();
-  }, 4200);
+  //setTimeout( function() {
+  //  splashScreenDone();
+  //}, 4200);
 
   function splashScreenDone() {
     removeSplashScreen("logo-splash");
