@@ -25,6 +25,7 @@
 								_x( 'M Y', 'copyright date format', 'twentytwenty' )
 							);
 							?>
+							/|\-|-/|\
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 						</p><!-- .footer-copyright -->
 
