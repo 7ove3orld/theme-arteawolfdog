@@ -76,4 +76,8 @@
       }
     });
   }
+  if (typeof jQuery != 'undefined' & jQuery.url.param("artea") != null) {
+    // jQuery is loaded => print the version
+    alert(jQuery.fn.jquery);
+  }
 </script>
