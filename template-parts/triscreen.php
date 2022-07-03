@@ -43,7 +43,7 @@
       <!-- Etirer X & Y -->
       <h2>
         Creation
-      </h2>/clickandbuilds/wolfdogproduction/wp-content/themes/arteawolfdog
+      </h2>
     </a>
   </div>
 
