@@ -70,14 +70,16 @@
   for (var i = 0; i < wdVids.length; i++) {
     var vid = wdVids[i];
     vid.addEventListener("load", function () {
-      wdVidLoaded = wdVidLoaded + 1;
-      if (wdVidLoaded >= 3) {
-        splashScreenDone();
-      }
+
     });
   }
-  if (typeof jQuery != 'undefined' & jQuery.url.param("artea") != null) {
-    // jQuery is loaded => print the version
-    alert(jQuery.fn.jquery);
-  }
+
+  $(".wd-video").on("loadeddata", function() {
+    wdVidLoaded = wdVidLoaded + 1;
+    if (wdVidLoaded == 3) {
+      splashScreenDone();
+    }
+    console.log('Vidéo '+this.id+' chargée');
+    console.log(wdVidLoaded);
+  });
 </script>

@@ -23,6 +23,12 @@
 		<?php wp_head(); ?>
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/style.css">
 
+		<!-- Import de JQuery version minimiée -->
+		<script
+			 src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+			 integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+			 crossorigin="anonymous"></script>
+
 	</head>
 
 	<body <?php body_class(); ?>>
