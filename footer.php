@@ -35,22 +35,12 @@
 						}
 						?>
 
-						<ul>
-							<li>
-								<a class="disabled" href="javascript:void(0);"
-								title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours...">Politique de Confidentialité</a>
-							</li>
-							<li>
-								<a class="disabled" href="javascript:void(0);"
-								title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours...">Conditions Générales de Vente (CGV)</a>
-							</li>
-						</ul>
-
-						<a class="gravity-portal" href="https://arthurneyer.xyz/">Made by Artea</a>
-
-
 
 					</div><!-- .footer-credits -->
+
+					<span class="gravity-portal">Made by
+						<a href="https://arthurneyer.xyz/">Artea</a>
+					</span>
 
 					<a class="to-the-top" href="#site-header">
 						<span class="to-the-top-long">
