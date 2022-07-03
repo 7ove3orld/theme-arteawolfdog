@@ -37,10 +37,12 @@
 
 						<ul>
 							<li>
-								<a disabled title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours..." href="#">Politique de Confidentialité</a>
+								<a class="disabled" href="javascript:void(0);"
+								title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours...">Politique de Confidentialité</a>
 							</li>
 							<li>
-								<a disabled title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours..." href="#">Conditions Générales de Vente (CGV)</a>
+								<a class="disabled" href="javascript:void(0);"
+								title="pas encore fonctionnel, retentez dans quelques heures ou quelques jours...">Conditions Générales de Vente (CGV)</a>
 							</li>
 						</ul>
 
