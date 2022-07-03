@@ -19,7 +19,7 @@
 
   <div class="wd-screen">
     <video id="wdVideo1" class="wd-video" height="auto" preload="auto" playsinline loop muted
-            poster="<?php echo get_template_directory_uri() ?>/assets/posters/adaptation.png">
+            poster="<?php echo get_template_directory_uri() ?>/assets/posters/adaptation.webp">
       <source src="<?php echo get_template_directory_uri() ?>/assets/vids/adaptation.webm" alt="Video One" type="video/webm">
       <source src="<?php echo get_template_directory_uri() ?>/assets/vids/adaptation.mp4" alt="Video One" type="video/mp4">
     </video>
@@ -34,7 +34,7 @@
 
   <div class="wd-screen">
     <video id="wdVideo2" class="wd-video" height="auto" preload="auto" playsinline loop muted
-            poster="<?php echo get_template_directory_uri() ?>/assets/posters/creation.png">
+            poster="<?php echo get_template_directory_uri() ?>/assets/posters/creation.webp">
       <source src="<?php echo get_template_directory_uri() ?>/assets/vids/creation.webm" alt="Video Two" type="video/webm">
       <source src="<?php echo get_template_directory_uri() ?>/assets/vids/creation.mp4" alt="Video Two" type="video/mp4">
     </video>
@@ -43,13 +43,13 @@
       <!-- Etirer X & Y -->
       <h2>
         Creation
-      </h2>
+      </h2>/clickandbuilds/wolfdogproduction/wp-content/themes/arteawolfdog
     </a>
   </div>
 
   <div class="wd-screen">
     <video id="wdVideo3" class="wd-video" height="auto" preload="auto" playsinline loop muted
-            poster="<?php echo get_template_directory_uri() ?>/assets/posters/emotion.png">
+            poster="<?php echo get_template_directory_uri() ?>/assets/posters/emotion.webp">
       <source src="<?php echo get_template_directory_uri() ?>/assets/vids/emotion.webm" alt="Video Three" type="video/webm">
       <source src="<?php echo get_template_directory_uri() ?>/assets/vids/emotion.mp4" alt="Video Three" type="video/mp4">
     </video>
