@@ -3,6 +3,10 @@
   var spashScreenVisible = true;
 
   function removeSplashScreen(classname) {
+    if (!spashScreenVisible) {
+      return null;
+    }
+
     //console.log("Hey !");
     var splash = document.getElementsByClassName(classname);
     for (var i = 0; i < splash.length; i++) {
@@ -12,9 +16,7 @@
   }
 
   setTimeout( function() {
-    if (spashScreenVisible) {
-      splashScreenDone();
-    }
+    splashScreenDone();
   }, 2400);
 
   function splashScreenDone() {
