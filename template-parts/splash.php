@@ -1,15 +1,23 @@
 <script type="text/javascript">
+
+  var spashScreenVisible = true;
+
   function removeSplashScreen(classname) {
+    if (!spashScreenVisible) {
+      return null;
+    }
+
     //console.log("Hey !");
     var splash = document.getElementsByClassName(classname);
     for (var i = 0; i < splash.length; i++) {
       splash[i].classList.add("done");
     }
+    spashScreenVisible = false;
   }
 
-  //setTimeout( function() {
-  //  splashScreenDone();
-  //}, 4200);
+  setTimeout( function() {
+    splashScreenDone();
+  }, 2400);
 
   function splashScreenDone() {
     removeSplashScreen("logo-splash");
@@ -20,7 +28,7 @@
 
   function splashScreenDoneForced() {
     splashScreenDone();
-    //alert("Les vidéos ne sont pas encore chargées.");
+    alert("Les vidéos ne sont pas encore chargées.");
   }
 
 </script>
