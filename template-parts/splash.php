@@ -12,7 +12,6 @@
     for (var i = 0; i < splash.length; i++) {
       splash[i].classList.add("done");
     }
-    spashScreenVisible = false;
   }
 
   setTimeout( function() {
@@ -23,6 +22,7 @@
     removeSplashScreen("logo-splash");
     setTimeout( function() {
       removeSplashScreen("title-splash");
+      spashScreenVisible = false;
     }, 777);
   }
 
