@@ -28,7 +28,7 @@
 
   function splashScreenDoneForced() {
     splashScreenDone();
-    alert("Les vidéos ne sont pas encore chargées.");
+    //alert("Les vidéos ne sont pas encore chargées.");
   }
 
 </script>

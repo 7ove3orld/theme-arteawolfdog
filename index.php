@@ -80,7 +80,6 @@ get_header();
 		<?php
 	}
 
-	query_posts('category_name=realisation');
 	if ( have_posts() ) {
 
 		$i = 0;
