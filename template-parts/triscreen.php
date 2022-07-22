@@ -15,6 +15,11 @@
     }
   ?>
 </script>
+<div style="opacity:0; position:absolute;">
+  Société de production audiovisuel. Vous avez un projet ? Une demande ?
+  Un besoin ? Quoi que ce soit à filmer ? À monter ?
+  N'hésitez pas à nous contacter.
+</div>
 <div class="triscreen" onloadeddata="splashScreenDone();">
 
   <div class="wd-screen">
