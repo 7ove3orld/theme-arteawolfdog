@@ -1,7 +1,7 @@
 <?php
 /**
- * The Pro template file
- * Template Name: Projet Professionnel Template
+ * The Realisation template file
+ * Template Name: Réalisation Template
  *
  * The main template file
  *
