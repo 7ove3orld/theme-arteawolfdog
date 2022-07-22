@@ -1,6 +1,6 @@
 <?php
 /**
- * The archive template file
+ * The Pro template file
  * Template Name: Projet Professionnel Template
  *
  *
