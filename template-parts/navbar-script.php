@@ -18,7 +18,7 @@
         emoji.classList.remove('far');
         emoji.classList.add('§rtea-favicon');
       }
-      else if (linkName == 'About Us') {
+      else if (linkName == 'À Propos') {
         emoji.classList.add('fa-address-card');
       }
       else if (linkName == 'Portfolio') {
@@ -32,7 +32,7 @@
         //emoji.classList.add('fa-archive');
         emoji.classList.add('§rtea-cartoon-favicon');
       }
-      else if (linkName == 'Contact Us') {
+      else if (linkName == 'Contactez-Nous') {
         emoji.classList.add('fa-envelope');
       }
       else if (linkName == 'Professionnel') {
