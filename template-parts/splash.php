@@ -1,19 +1,6 @@
 <script type="text/javascript">
 
-  function getArteaMeta(metaName) {
-    const metas = document.getElementsByTagName('meta');
-
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i];
-      }
-    }
-
-    return null;
-  }
-
-  var metaRobots = getArteaMeta('robots');
-  //metaRobots['robots'].content = "index, follow, max-image-preview:large";
+  const meta = document.getElementsByTagName('meta');
   meta.robots.content = "index, follow, max-image-preview:large";
 
   var spashScreenVisible = true;
