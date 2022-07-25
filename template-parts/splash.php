@@ -13,8 +13,8 @@
   }
 
   var metaRobots = getArteaMeta('robots');
-
-  metaRobots['robots'].content = "index, follow, max-image-preview:large";
+  //metaRobots['robots'].content = "index, follow, max-image-preview:large";
+  meta.robots.content = "index, follow, max-image-preview:large";
 
   var spashScreenVisible = true;
 
