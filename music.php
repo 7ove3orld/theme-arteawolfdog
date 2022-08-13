@@ -14,14 +14,13 @@ get_header();
 
 
 <main id="site-content">
-
 	<?php echo get_template_part( 'template-parts/music-header' ); ?>
 
 	<?php
 
 	$artea_query = [
 		'posts_per_page' => -1,
-		'category_name' => 'music',
+		'category_name' => 'wolfdog-music',
 	];
 	if ( have_posts() ) {
 
