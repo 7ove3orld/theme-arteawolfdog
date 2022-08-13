@@ -56,6 +56,7 @@ get_header();
 	$artea_query = $wp_query->query;
 	$artea_query['category_name'] = 'projet-pro';
 	query_posts($artea_query);
+	query_posts('projet-pro');
 	if ( have_posts() ) {
 
 		$i = 0;
