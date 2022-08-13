@@ -1,10 +1,10 @@
 <div class="§rtea-container">
   <h2>
-    Nous réalisons...
+    Nos Projets Pros
   </h2>
 
-  <div class="d-flex justify-content-center">
-    <a class="btn btn-danger" href="/portfolio">Nos Réalisations</a>
+  <div style="display:flex;justify-content:center;">
+    <a class="wp-block-button__link" href="/portfolio" style="font-size:.77rem;">Voir Nos Réalisations</a>
   </div>
 
 </div>
