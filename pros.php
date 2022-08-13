@@ -52,7 +52,10 @@ get_header();
 		$archive_subtitle = get_the_archive_description();
 	}
 
-	query_posts('category_name=projet-pro');
+	global $wp_query;
+	$artea_query = $wp_query->query;
+	$artea_query['category_name'] = 'projet-pro';
+	query_posts($artea_query);
 	if ( have_posts() ) {
 
 		$i = 0;

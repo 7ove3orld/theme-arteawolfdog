@@ -35,6 +35,7 @@
   }
 
 </script>
+
 <div class="title-splash splash-screen left-panel">
   <!-- 2sec max OU click -->
   <a class="btn-img" href="javascript:splashScreenDoneForced();">

@@ -1,6 +1,6 @@
 <div class="§rtea-container">
   <h2 style="color:var(--wp--preset--color--accent);">
-    Nos Projets Pros
+    Wolfdog Music
   </h2>
 
   <div style="display:flex; justify-content:center;">
@@ -8,9 +8,9 @@
         style="font-size:.77rem; margin:2px;">
       Voir Nos Réalisations
     </a>
-    <a class="wp-block-button__link" href="/music"
+    <a class="wp-block-button__link" href="/professionnel"
         style="font-size:.77rem; margin:2px;">
-      Wolfdog Music
+      Nos Projets Professionnels
     </a>
   </div>
 

@@ -19,7 +19,8 @@ if ( has_post_thumbnail() && ! post_password_required() ) {
 
 	<figure class="featured-media">
 
-		<div class="featured-media-inner section-inner<?php echo $featured_media_inner_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>">
+		<div class="featured-media-inner section-inner<?php echo $featured_media_inner_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>"
+					style="max-width:512px;">
 
 			<?php
 			the_post_thumbnail();

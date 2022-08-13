@@ -42,6 +42,18 @@
 			<ul class="reset-list-style §rtea-nav-list">
 
 			<?php
+
+			global $enable_splash;
+			$enable_splash = !isset($_GET['nosplash']);
+			if ( !$enable_splash ) {
+			  $enable_splash = $enable_splash && ($_GET['nosplash'] != 1);
+			}
+
+			$request_uris = explode('?', $_SERVER['REQUEST_URI']);
+			if (count($request_uris) > 1) {
+				$_SERVER['REQUEST_URI'] = $request_uris[0];
+			}
+
 			if ( has_nav_menu( 'primary' ) ) {
 
 				wp_nav_menu(

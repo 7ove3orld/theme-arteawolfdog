@@ -69,22 +69,28 @@
 
 </div>
 <script type="text/javascript">
-  var wdVids = document.getElementsByClassName('wd-video');
-  var wdVidLoaded = 0;
 
-  for (var i = 0; i < wdVids.length; i++) {
-    var vid = wdVids[i];
-    vid.addEventListener("load", function () {
+  if (typeof splashScreenDone == 'undefined') {} else {
 
+    var wdVids = document.getElementsByClassName('wd-video');
+    var wdVidLoaded = 0;
+
+    for (var i = 0; i < wdVids.length; i++) {
+      var vid = wdVids[i];
+      vid.addEventListener("load", function () {
+
+      });
+    }
+
+    $(".wd-video").on("loadeddata", function() {
+      wdVidLoaded = wdVidLoaded + 1;
+      if (wdVidLoaded == 3) {
+        splashScreenDone();
+      }
+      console.log('Vidéo '+this.id+' chargée');
+      console.log(wdVidLoaded);
     });
+
   }
 
-  $(".wd-video").on("loadeddata", function() {
-    wdVidLoaded = wdVidLoaded + 1;
-    if (wdVidLoaded == 3) {
-      splashScreenDone();
-    }
-    console.log('Vidéo '+this.id+' chargée');
-    console.log(wdVidLoaded);
-  });
 </script>

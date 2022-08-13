@@ -10,7 +10,9 @@
 
 get_header();
 
-get_template_part( 'template-parts/splash' );
+if ($enable_splash) {
+	get_template_part( 'template-parts/splash' );
+}
 
 ?>
 

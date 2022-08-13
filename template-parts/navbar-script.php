@@ -17,6 +17,7 @@
       if (linkName == 'Accueil') {
         emoji.classList.remove('far');
         emoji.classList.add('§rtea-favicon');
+        link.href = link.href+'?nosplash=1';
       }
       else if (linkName == 'À Propos') {
         emoji.classList.add('fa-address-card');
