@@ -52,11 +52,10 @@ get_header();
 		$archive_subtitle = get_the_archive_description();
 	}
 
-	global $wp_query;
-	$artea_query = $wp_query->query;
-	$artea_query['category_name'] = 'music';
-	query_posts($artea_query);
-	query_posts('music');
+	$artea_query = [
+		'posts_per_page' => -1,
+		'category_name' => 'music',
+	];
 	if ( have_posts() ) {
 
 		$i = 0;

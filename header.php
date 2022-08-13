@@ -49,10 +49,27 @@
 			  $enable_splash = $enable_splash && ($_GET['nosplash'] != 1);
 			}
 
-			$request_uris = explode('?', $_SERVER['REQUEST_URI']);
-			if (count($request_uris) > 1) {
-				$_SERVER['REQUEST_URI'] = $request_uris[0];
+			$request_uri_exploded = explode('?', $_SERVER['REQUEST_URI']);
+			if (count($request_uri_exploded) > 1) {
+				$_SERVER['REQUEST_URI'] = $request_uri_exploded[0];
 			}
+
+			// -------------------------------------------------
+			// If we use pagination ----------------------------
+			// -------------------------------------------------
+			//
+			// $request_uri_exploded = explode('/', $_SERVER['REQUEST_URI']);
+			// if (count($request_uri_exploded) > 4) {
+			// 	global $artea_page_id;
+			// 	$artea_page_id = $request_uri_exploded[3];
+			// 	echo "<script type='text/javascript'>
+			// 		console.log('URL Count : ".count($request_uri_exploded)."');
+			// 		console.log('URL Strings : ".implode('\n- ', $request_uri_exploded)."');
+			// 		console.log('Artea Page ID : ".$artea_page_id."');
+			// 	</script>";
+			// }
+
+			unset($request_uri_exploded);
 
 			if ( has_nav_menu( 'primary' ) ) {
 
