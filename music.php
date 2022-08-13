@@ -1,6 +1,6 @@
 <?php
 /**
- * The Pro template file
+ * The Wolfdog Music template file
  * Template Name: Wolfdog Music Template
  *
  *
