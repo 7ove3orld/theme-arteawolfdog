@@ -30,7 +30,7 @@ get_header();
 	$artea_query = $wp_query->query;
 	$artea_query['category_name'] = 'realisation';
 	query_posts($artea_query);
-	query_posts('realisation');
+	query_posts('portfolio');
 	if ( have_posts() ) {
 
 		$i = 0;
