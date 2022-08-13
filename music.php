@@ -22,6 +22,7 @@ get_header();
 		'posts_per_page' => -1,
 		'category_name' => 'wolfdog-music',
 	];
+	query_posts($artea_query);
 	if ( have_posts() ) {
 
 		$i = 0;
