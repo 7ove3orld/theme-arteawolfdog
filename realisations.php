@@ -26,11 +26,11 @@ get_header();
 
 	<?php
 
-	global $wp_query;
-	$artea_query = $wp_query->query;
-	$artea_query['category_name'] = 'realisation';
-	query_posts($artea_query);
-	query_posts('portfolio');
+	// global $wp_query;
+	// $artea_query = $wp_query->query;
+	// $artea_query['category_name'] = 'realisation';
+	// query_posts($artea_query);
+	query_posts('realisation');
 	if ( have_posts() ) {
 
 		$i = 0;
