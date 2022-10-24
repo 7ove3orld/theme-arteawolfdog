@@ -23,10 +23,10 @@
 
 ---
 
-- [ ] About Us :
-	- [ ] Retrouver le à propos & ajouter des images
-	- [ ] (ou) Refaire le design
-	- [ ] Nos Collaborateurs
+- [x] About Us :
+	- [x] Retrouver le à propos & ajouter des images
+	- [x] (ou) Refaire le design
+	- [x] Nos Collaborateurs
 
 ---
 
@@ -35,8 +35,8 @@
 
 ---
 
-- [ ] Ajouter Wolfdog Music
-	- [ ] -> Interview Kaï Du M
+- [x] Ajouter Wolfdog Music
+	- [x] -> Interview Kaï Du M
 
 ---
 
@@ -53,3 +53,36 @@
 ---
 
 - [ ] Ajouter btn vers magasin en bas à droite (icon cart-shopping)
+
+## Octobre 2022
+
+- [ ] Développement
+	- [ ] Performaces Vidéos YouTube
+
+---
+
+- [ ] Bugs
+	- [ ] **Safari** ne charge pas les images wesh
+	- [ ] Logo en noir
+
+---
+
+- [ ] Administration
+	- [ ] Changer photo créativité
+	- [ ] Changer photo émotion
+	- Ajouter un collaborateur
+
+---
+
+- [ ] e-shop
+	- [ ] Onglet à droite (panier)
+	- [ ] Retirer de à propos
+
+### Les Articles
+	- Sweet Noir
+		- S M L XL
+	- T-Shirt Noir
+		- S M L XL
+	- Mugs
+		- Numéro 1
+		- Numéro 2
