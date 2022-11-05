@@ -61,16 +61,16 @@
 
 ---
 
-- [ ] Bugs
-	- [ ] **Safari** ne charge pas les images wesh
-	- [ ] Logo en noir
+- [x] Bugs
+	- [x] **Safari** ne charge pas les images wesh
+	- [x] Logo en noir
 
 ---
 
 - [ ] Administration
 	- [ ] Changer photo créativité
 	- [ ] Changer photo émotion
-	- Ajouter un collaborateur
+	- [ ] Ajouter un collaborateur
 
 ---
 
